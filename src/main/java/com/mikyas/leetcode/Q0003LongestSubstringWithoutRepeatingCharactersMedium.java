@@ -1,3 +1,5 @@
+package com.mikyas.leetcode;
+
 import java.util.HashMap;
 
 /**
