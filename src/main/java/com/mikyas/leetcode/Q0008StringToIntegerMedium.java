@@ -57,7 +57,7 @@ package com.mikyas.leetcode;
  * The parsed integer is 4193.
  * Since 4193 is in the range [-231, 231 - 1], the final result is 4193.
  */
-public class Q0008StringToInteger {
+public class Q0008StringToIntegerMedium {
     public static void main(String[] args) {
         System.out.println("myAtoi 123 : " + myAtoi("123-"));
         System.out.println("myAtoi 0 : " + myAtoi("  +  413"));

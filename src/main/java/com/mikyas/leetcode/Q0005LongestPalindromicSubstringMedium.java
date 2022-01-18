@@ -1,7 +1,5 @@
 package com.mikyas.leetcode;
 
-import java.util.LinkedList;
-
 /**
  * Given a string s, return the longest palindromic substring in s.
  * <p>
@@ -18,7 +16,7 @@ import java.util.LinkedList;
  * 1 <= s.length <= 1000
  * s consist of only digits and English letters.
  */
-public class Q0005LongestPalindromicSubstring {
+public class Q0005LongestPalindromicSubstringMedium {
     public static void main(String[] args) {
         System.out.println("babad : " + longestPalindrome("babad"));
         System.out.println("cbbd : " + longestPalindrome("cbbd"));

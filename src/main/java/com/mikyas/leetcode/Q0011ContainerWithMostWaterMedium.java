@@ -31,7 +31,7 @@ import java.util.Random;
  * 2 <= n <= 10^5
  * 0 <= height[i] <= 10^4
  */
-public class Q0011ContainerWithMostWater {
+public class Q0011ContainerWithMostWaterMedium {
     public static void main(String[] args) {
 //        System.out.println("result 1 : " + maxArea(getTestArray1()));
         System.out.println("result 2 : " + maxArea(getTestArray2()));

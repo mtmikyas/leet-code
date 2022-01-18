@@ -45,7 +45,7 @@ package com.mikyas.leetcode;
  * s contains only the characters ('I', 'V', 'X', 'L', 'C', 'D', 'M').
  * It is guaranteed that s is a valid roman numeral in the range [1, 3999].
  */
-public class Q0013RomanToInteger {
+public class Q0013RomanToIntegerEasy {
     public static void main(String[] args) {
         System.out.println("III : " + romanToInt("III"));
         System.out.println("LVIII : " + romanToInt("LVIII"));
