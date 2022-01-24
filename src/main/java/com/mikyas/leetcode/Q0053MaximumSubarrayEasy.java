@@ -32,7 +32,7 @@ package com.mikyas.leetcode;
  */
 public class Q0053MaximumSubarrayEasy {
     public static void main(String[] args) {
-        System.out.println("6 : " + maxSubArray(new int[]{-2, 1, -3, 4, -1, 2, 1, -5, 4}));
+        System.out.println("6 : " + maxSubArray(new int[]{-2, 1, -3, 4, -1, 2, 1, -5, 4, 2, -1, 5}));
     }
 
     public static int maxSubArray(int[] nums) {
@@ -42,9 +42,7 @@ public class Q0053MaximumSubarrayEasy {
         int result = nums[0];
 
         for (int i = 1; i < length; i++) {
-
             arr[i] = Math.max(nums[i], nums[i] + arr[i - 1]);
-
             result = Math.max(result, arr[i]);
         }
 
