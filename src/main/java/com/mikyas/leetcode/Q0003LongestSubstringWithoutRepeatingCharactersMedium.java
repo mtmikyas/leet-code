@@ -27,10 +27,10 @@ import java.util.HashMap;
  */
 public class Q0003LongestSubstringWithoutRepeatingCharactersMedium {
     public static void main(String[] args) {
-//        System.out.println("abcabcbb result : " + lengthOfLongestSubstring("abcabcbb"));
-//        System.out.println("pwwkew result : " + lengthOfLongestSubstring("pwwkew"));
-//        System.out.println("bbbbb result : " + lengthOfLongestSubstring("bbbbb"));
-//        System.out.println("xyzzabcdzxabcde result : " + lengthOfLongestSubstring("xyzzabcdzxabcde"));
+        System.out.println("abcabcbb result : " + lengthOfLongestSubstring("abcabcbb"));
+        System.out.println("pwwkew result : " + lengthOfLongestSubstring("pwwkew"));
+        System.out.println("bbbbb result : " + lengthOfLongestSubstring("bbbbb"));
+        System.out.println("xyzzabcdzxabcde result : " + lengthOfLongestSubstring("xyzzabcdzxabcde"));
         System.out.println(" result : " + lengthOfLongestSubstring(""));
     }
 
